@@ -2,57 +2,32 @@ import AppConstants from './constants/AppConstants';
  const parkings = [
 	{
 		id: 0,
-		truckPlace: {
-			type: AppConstants.TRUCK_PLACE,
-			all: 2,
-			free: 2,
-			busy: 0
-		},
-		disabledPlace:{
-			type: AppConstants.DISABLED_PLACE,
-			all: 1,
-			free: 1,
-			busy: 0
-		},
-		standartPlace:{
-			type: AppConstants.STANDART_PLACE,
-			all: 3,
-			free: 3,
-			busy: 0
-		},
-		places:[
+		places: [
 			{
-				id:0,
+				id: 0,
 				type: AppConstants.TRUCK_PLACE,
-				free: true
+				name: 'TRUCK PLACE',
+				all: 2,
+				free: 2,
+				busy: 0
 			},
 			{
-				id:1,
-				type: AppConstants.TRUCK_PLACE,
-				free: true
-			},
-			{
-				id:2,
+				id: 1;
 				type: AppConstants.DISABLED_PLACE,
-				free: true
+				name: 'DISABLED PLACE'
+				all: 1,
+				free: 1,
+				busy: 0
 			},
 			{
-				id:3,
+				id: 2,
 				type: AppConstants.STANDART_PLACE,
-				free: true
-			},
-			{
-				id:4,
-				type: AppConstants.STANDART_PLACE,
-				free: true
-			},
-			{
-				id:5,
-				type: AppConstants.STANDART_PLACE,
-				free: true
+				name: 'STANDART PLACE',
+				all: 3,
+				free: 3,
+				busy: 0
 			}
 		]
-
 	}
 ];
 export default parkings;
