@@ -4,9 +4,6 @@ import React from 'react';
 export default class Parking extends React.Component{
 	constructor(props){
 		super(props)
-		this.state = {
-			data:this.props.data
-		}
 	}
 	render(){
 		return (
@@ -22,7 +19,7 @@ export default class Parking extends React.Component{
 				</thead>
 				<tbody>
 					{ 
-						this.state.data.map( item => {
+						this.props.data.map( item => {
 							return (
 									<tr key={item.id}>
 										<td>

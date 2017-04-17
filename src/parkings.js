@@ -6,7 +6,7 @@ import AppConstants from './constants/AppConstants';
 			{
 				id: 0,
 				type: AppConstants.TRUCK_PLACE,
-				name: 'TRUCK PLACE',
+				name: AppConstants.TRUCK,
 				all: 2,
 				free: 2,
 				busy: 0
@@ -14,7 +14,7 @@ import AppConstants from './constants/AppConstants';
 			{
 				id: 1,
 				type: AppConstants.DISABLED_PLACE,
-				name: 'DISABLED PLACE',
+				name: AppConstants.DISABLED,
 				all: 1,
 				free: 1,
 				busy: 0
@@ -22,7 +22,7 @@ import AppConstants from './constants/AppConstants';
 			{
 				id: 2,
 				type: AppConstants.STANDART_PLACE,
-				name: 'STANDART PLACE',
+				name: AppConstants.STANDART,
 				all: 3,
 				free: 3,
 				busy: 0
