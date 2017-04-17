@@ -1,4 +1,4 @@
-import keyMirror from 'keymirror';
+import keyMirror from 'key-mirror';
 
 export default keyMirror({
     TRUCK_PLACE    : null,

@@ -1,11 +1,10 @@
 import React from 'react';
+import Parking from './components/Parking'
 
-function App() {
+function App(props) {
 
     return (
-        <h1>
-        	First start
-        </h1>
+    	<Parking data={props.data} />
     );
 }
 
