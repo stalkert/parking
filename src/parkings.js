@@ -12,9 +12,9 @@ import AppConstants from './constants/AppConstants';
 				busy: 0
 			},
 			{
-				id: 1;
+				id: 1,
 				type: AppConstants.DISABLED_PLACE,
-				name: 'DISABLED PLACE'
+				name: 'DISABLED PLACE',
 				all: 1,
 				free: 1,
 				busy: 0

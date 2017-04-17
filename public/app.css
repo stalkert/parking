@@ -291,3 +291,11 @@ header h1 {
     opacity: 1;
     transition: all .5s;
 }
+.w200-ta-l{
+    width:200px;
+    text-align:left;
+}
+.w50-ta-c{
+    width:50px;
+    text-align:center;
+}
